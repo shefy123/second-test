@@ -1,0 +1,80 @@
+body {
+    background-color: #a9d0da;
+}
+
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+.container {
+    margin-top: 36px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.form-control {
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.card {
+    width: 100%;
+}
+.card-body {
+    width: 100%;
+    text-align: center;
+}
+.button-image {
+    height: 50px;
+    width: 50px;
+    background-image: url(images/keyboard-key.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+}
+.button-image:hover {
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+.button-image p {
+    margin-top : 0px;
+    font-family: 'Arvo', serif;
+}
+.space-bar {
+    height: 50px;
+    width: 90px;
+    background-image: url('images/space-bar-key.png');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    line-height: 3; 
+}
+.space-bar:hover {
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+.massage-key {
+ 
+    height: 50px;
+    width: 50px;
+    background-image: url(images/keyboard-key.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+}
+
+.massage-key:hover {
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1.1);
+}
