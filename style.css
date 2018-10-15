@@ -9,6 +9,12 @@ body {
 h1 {
     font-family: 'Permanent Marker', cursive;
 }
+#input {
+    height: 100px;
+    background: white;
+    border-radius: 2px;
+    padding: 16px;
+}
 .container {
     margin-top: 36px;
     width: 100%;
